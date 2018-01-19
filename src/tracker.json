@@ -1,0 +1,861 @@
+{
+  "things": [
+    {
+      "id": "2278943",
+      "avatar": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/avatar_default_thumb_small.jpg",
+      "title": "Peristaltic Pump w/o bearrings",
+      "description": "<p>I made thought pump for using with dropper tube. About productivity - 20-40 ml/per minute.</p>",
+      "url": "https://www.thingiverse.com/thing:2278943",
+      "downloadUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/zip/2278943.zip",
+      "like": "24",
+      "collect": "22",
+      "made": "0",
+      "watch": "2",
+      "remix": "0",
+      "views": "532",
+      "downloads": "240",
+      "authors": [
+        {
+          "name": "Maddoc",
+          "url": "https://www.thingiverse.com/thing:2278943",
+          "email": "None"
+        }
+      ],
+      "created": "Apr 27, 2017",
+      "licenses": [
+        "GNU - GPL license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/57ecc5b353f62e0fb6ac572efe115a16_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/5f8d262c07d03cbfcd1a1d0e1ac56989_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/24ff639f5ab1a327f8f427505650048a_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/efbb8b0498f41fb02f268c669ea2961f_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/d2da76b0eda2c3782c648fccb362b9bd_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9f6a92fad0eaa4337213c407f3697e2b_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/869b414bfad04b78996c7775d2a5d635_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/44cfea9f57ede8176650f558aeac5d45_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9e661955cb697a02ca75761e2116d7a5_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/e2cb09f92b3055959b167c2225b46b82_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/4647b6db7baef48d32575cd1f40bf5ec_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/337977310cb1bea2abcc48e45c5f9acf_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/b9142361222ad8787d3f7a3e568c4b7c_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9d37e33d9cbbd0d9610348c31d0e501a_display_large.jpg",
+        "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9631e5167a69481268bf940303757938_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+        "peristaltic_pump",
+        "pump",
+        "water_pump"
+      ],
+      "billOfMaterials": [
+        {
+          "partNumber": "",
+          "description": "Wheel.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Wheel.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Rotary_Part_Up.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Rotary_Part_Up.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Peristaltic_Pump_cap.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Peristaltic_Pump_cap.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9631e5167a69481268bf940303757938_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Peristaltic_Pump_Body.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Peristaltic_Pump_Body.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Rotary_Part.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Rotary_Part.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Rotary_Part.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Rotary_Part.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/b9142361222ad8787d3f7a3e568c4b7c_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Upper_part_support.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Upper_part_support.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Upper_part_support.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Upper_part_support.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Peristaltic_Pump_Body.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Peristaltic_Pump_Body.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/9d37e33d9cbbd0d9610348c31d0e501a_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Wheel.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Wheel.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Peristaltic_Pump_cap.x_t",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Peristaltic_Pump_cap.x_t",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Rotary_Part_Up.stl",
+          "url": "thumbnails/Peristaltic-Pump-w-o-bearrings/src/Rotary_Part_Up.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Peristaltic-Pump-w-o-bearrings/img/337977310cb1bea2abcc48e45c5f9acf_preview_tinycard.jpg"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    },
+    {
+      "id": "1037311",
+      "avatar": "thumbnails/Animated-Humanoid-Robot-Head/img/avatar_maker_thumb_small.jpg",
+      "title": "Animated Humanoid Robot Head",
+      "description": "<h3>Animated Humanoid Robot Head</h3><p>This robot head features a movable mouth, eyes that move horizontally and vertically, and a pan/tilt neck. </p><p>Completely wireless!</p><p>Video:<br /><a rel=\"nofollow\" href=\"https://www.youtube.com/watch?v=Uj1b2VVOuDw&amp;feature=share\">https://www.youtube.com/watch?v=Uj1b2VVOuDw&amp;feature=share</a></p><p>Build instructions, electronics, and Arduino code:<br /><a rel=\"nofollow\" href=\"https://hyperplaneinteractive.com/TCS/AnimatedHumanoidRobotHead\">https://hyperplaneinteractive.com/TCS/AnimatedHumanoidRobotHead</a></p><h3>Check out some of our other models:</h3><p><a rel=\"nofollow\" href=\"https://pinshape.com/items/27103-3d-printed-desktop-satellite-antenna\"><img src=\"https://assets.pinshape.com/uploads/print_image/file/16623/pin_DSCN6381.JPG\" alt=\"Desktop Satellite Antenna\" title=\"Desktop Satellite Antenna\" /> - Desktop Satellite Antenna</a></p><p><a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:952564\"><img src=\"http://thingiverse-production-new.s3.amazonaws.com/renders/d1/92/43/1c/48/DSCN2013_preview_tinycard.JPG\" alt=\"Wind Energy Stored In Gravity\" title=\"Wind Energy Stored In Gravity\" /> - Wind Energy Stored In Gravity</a></p><p><a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:971564\"><img src=\"http://thingiverse-production-new.s3.amazonaws.com/renders/40/f2/ea/95/56/DSCN2085_preview_tinycard.JPG\" alt=\"Mini Vertical Wind Turbine\" title=\"Mini Vertical Wind Turbine\" /> - Mini Vertical Wind Turbine</a></p><p><a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:1085724\"><img src=\"http://thingiverse-production-new.s3.amazonaws.com/renders/85/b6/72/73/7a/DSCN3020_preview_tinycard.JPG\" alt=\"Mike's Spool Holder\" title=\"Mike's Spool Holder\" /> - Mike's Spool Holder</a></p><p><a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:920376\"><img src=\"http://thingiverse-production-new.s3.amazonaws.com/renders/22/3c/c9/34/a4/DSCN1912_preview_tinycard.JPG\" alt=\"The Catfish - A fully working submarine\" title=\"The Catfish - A fully working submarine\" /> - The Catfish - A fully working submarine</a></p><p><a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:1081121\"><img src=\"http://thingiverse-production-new.s3.amazonaws.com/renders/98/37/97/98/56/1019152100d_preview_tinycard.jpg\" alt=\"Pumpkin Carving Tools\" title=\"Pumpkin Carving Tools\" /> - Pumpkin Carving Tools</a></p>",
+      "url": "https://www.thingiverse.com/thing:1037311",
+      "downloadUrl": "thumbnails/Animated-Humanoid-Robot-Head/zip/1037311.zip",
+      "like": "175",
+      "collect": "215",
+      "made": "0",
+      "watch": "9",
+      "remix": "0",
+      "views": "9183",
+      "downloads": "2422",
+      "authors": [
+        {
+          "name": "hyperplanemike",
+          "url": "https://www.thingiverse.com/thing:1037311",
+          "email": "None"
+        }
+      ],
+      "created": "Sep 26, 2015",
+      "licenses": [
+        "Creative Commons - Attribution - Non-Commercial license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2577_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/thing_complete_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/face_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2576_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2581_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2579_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2578_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2582_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2583_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2585_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2587_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2586_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2580_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/back_mount_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_mount_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_vert_bearing_cap_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/stand_top_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/back_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_main_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/shoulder_frame_cap_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/shoulder_frame_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2584_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2589_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2588_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2594_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2591_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2590_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2592_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2593_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2595_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2574_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/DSCN2575_display_large.JPG",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_vert_arm_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_horiz_bearing_cap_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/stand_base_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/stand_battery_door_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/neck_bearing_cap_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/thing_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/eye_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_main_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/stand_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/face_left_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/main_mount_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_top_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/face_right_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_clip_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/chin_display_large.jpg",
+        "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_vert_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+        "arduino",
+        "halloween",
+        "humanoid",
+        "robot",
+        "servo"
+      ],
+      "billOfMaterials": [
+        {
+          "partNumber": "",
+          "description": "face_right.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/face_right.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/face_right_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_vert_bearing_cap.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_vert_bearing_cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_vert_bearing_cap_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "back_mount.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/back_mount.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/back_mount_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "stand_battery_door.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/stand_battery_door.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/stand_battery_door_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "shoulder_frame.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/shoulder_frame.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/shoulder_frame_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "eye_mount_vert.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/eye_mount_vert.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_vert_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "eye.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/eye.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/eye_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "face_left.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/face_left.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/face_left_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "eye_mount_top.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/eye_mount_top.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_top_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_mount.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_mount.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_mount_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "thing_complete.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/thing_complete.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/thing_complete_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_vert_arm.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_vert_arm.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_vert_arm_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "stand_top.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/stand_top.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/stand_top_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "eye_mount_clip.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/eye_mount_clip.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_clip_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "stand_base.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/stand_base.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/stand_base_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "shoulder_frame_cap.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/shoulder_frame_cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/shoulder_frame_cap_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_horiz_bearing_cap.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_horiz_bearing_cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_horiz_bearing_cap_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "eye_mount_main.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/eye_mount_main.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/eye_mount_main_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "main_mount.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/main_mount.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/main_mount_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "chin.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/chin.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/chin_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_main.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_main.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_main_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "stand.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/stand.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/stand_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "neck_bearing_cap.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/neck_bearing_cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/neck_bearing_cap_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "back.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/back.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/back_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "thing.STL",
+          "url": "thumbnails/Animated-Humanoid-Robot-Head/src/thing.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Animated-Humanoid-Robot-Head/img/thing_preview_tinycard.jpg"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    },
+    {
+      "id": "1966169",
+      "avatar": "thumbnails/Levitator/img/bb1959a54ffa06d42dc292876f1a4626_thumb_small.jpg",
+      "title": "Levitator",
+      "description": "<p>This is my remix version of the great <a rel=\"nofollow\" href=\"http://www.thingiverse.com/thing:943091\">Gravitator</a>.<br />My father was a scientist in the magnetic field and I've always been fascinated by his work.<br />When I saw the Gravitator, I decided to dive into magnetic levitation and build a unique Christmas present for him.</p><p>Looking on the web at some similar projects using an arduino to control the levitation, I came up with an interrupt based PID controller that can be configured and controlled over USB or bluetooth.</p><p>I've also developped the host controller that allows to fine tune the levitation.</p><p>As I wanted the levitating magnet to go up and down in a controlled way, I've also implemented a simple square, triangle or sine wave generator that interpolate between 2 predefined position.</p><p>Here is a small video showing the <a rel=\"nofollow\" href=\"https://youtu.be/jEGQLMjDUyI\">controlled levitation</a><br />More to come...</p><p>You'll find the arduino project here: <a rel=\"nofollow\" href=\"https://bitbucket.org/rxnco/levitator\">Levitator</a><br />You'll find the Levitator Host application here: <a rel=\"nofollow\" href=\"https://bitbucket.org/rxnco/levitatorhost/overview\">LevitatorHost</a></p><p>Let me kown when you build one and post pictures !!!</p><p>Enjoy ;-)</p><p><strong> EDIT 2016/12/14: </strong><br />Added more pictures<br />Added board schematics and gerber file.<br />Added Arduino Levitator project link.<br />Added Some build instructions<br />Added Levitator-Bottom-NoBTswitch part</p><p><strong> EDIT 2016/12/15: </strong><br />Added link to the LevitatorHost project</p><p><strong> EDIT 2016/12/19 </strong><br />Added some PDF files for the board creation.</p>",
+      "url": "https://www.thingiverse.com/thing:1966169",
+      "downloadUrl": "thumbnails/Levitator/zip/1966169.zip",
+      "like": "130",
+      "collect": "202",
+      "made": "2",
+      "watch": "8",
+      "remix": "0",
+      "views": "5835",
+      "downloads": "1083",
+      "authors": [
+        {
+          "name": "RxBConcept",
+          "url": "https://www.thingiverse.com/thing:1966169",
+          "email": "None"
+        }
+      ],
+      "created": "Dec 13, 2016",
+      "licenses": [
+        "Creative Commons - Attribution - Share Alike license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Levitator/img/b615ccd62f0b3a58d859fc840fb3b166_display_large.JPG",
+        "thumbnails/Levitator/img/a9c06862997baeb64d197daa638d2f21_display_large.JPG",
+        "thumbnails/Levitator/img/fc3a857e02443291a341174a76c17440_display_large.JPG",
+        "thumbnails/Levitator/img/4f00881c181a1f70f1de0f3e84738e07_display_large.JPG",
+        "thumbnails/Levitator/img/b9e35580885990ea47162351031a3f0c_display_large.JPG",
+        "thumbnails/Levitator/img/e27972ae8dd23dc6d32a6df3a912540e_display_large.JPG",
+        "thumbnails/Levitator/img/5d8a41a1d13bbd7b7c21c755115deda0_display_large.JPG",
+        "thumbnails/Levitator/img/60088b81e9ef474986c7b810228c5d95_display_large.JPG",
+        "thumbnails/Levitator/img/1b20d308243a70f347ebb77c4c97ad69_display_large.JPG",
+        "thumbnails/Levitator/img/cccd9e7fcf0628a5df3db75288bb19f8_display_large.JPG",
+        "thumbnails/Levitator/img/7efee4eda142b1862c13e565bbf16cec_display_large.JPG",
+        "thumbnails/Levitator/img/d989d15709c4e11c4ff56b292450776b_display_large.JPG",
+        "thumbnails/Levitator/img/9332c8be05edf20df4c57a64b85f9e01_display_large.JPG",
+        "thumbnails/Levitator/img/57d3a8d3d5f9e9c7731d68a72339feb7_display_large.JPG",
+        "thumbnails/Levitator/img/34a86bbdc66ae608bacfd090ffc50298_display_large.JPG",
+        "thumbnails/Levitator/img/02f602781f131fc0f8c943d860bcdd7c_display_large.jpg",
+        "thumbnails/Levitator/img/18bcba260151953c1a649cebc2d2a316_display_large.jpg",
+        "thumbnails/Levitator/img/b069130c93e8a6d77e4c129295bac324_display_large.jpg",
+        "thumbnails/Levitator/img/274af97d7753be9e7f173b72ec59afc5_display_large.jpg",
+        "thumbnails/Levitator/img/5a2575a12945cb25a6061484de0bb382_display_large.jpg",
+        "thumbnails/Levitator/img/4b376daf8841e1f8898c02a20818f402_display_large.jpg",
+        "thumbnails/Levitator/img/90add7e8170c444f23e870108b468446_display_large.jpg",
+        "thumbnails/Levitator/img/3e61a8ecb24fe1763ddb238a362775e0_display_large.jpg",
+        "thumbnails/Levitator/img/49373c4d1818f4c214e35a2f59d9be7a_display_large.jpg",
+        "thumbnails/Levitator/img/88ffb4110cca64da9db0ff369a21bccc_display_large.jpg",
+        "thumbnails/Levitator/img/e545fdf44737a567b8ee710aec6f4eaa_display_large.jpg",
+        "thumbnails/Levitator/img/19e3cbbbf1533f0867508846cad930b5_display_large.jpg",
+        "thumbnails/Levitator/img/a15c1fca9cc611cc2a7fc42f5e0005fe_display_large.jpg",
+        "thumbnails/Levitator/img/887611882a3a10dfb3aea8a8c8e230d8_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+        "Anti_Gravity",
+        "Arduino",
+        "bluetooth",
+        "Gravitation",
+        "levitation",
+        "Levitator",
+        "magnetic"
+      ],
+      "billOfMaterials": [
+        {
+          "partNumber": "",
+          "description": "Levitator-pdf.zip",
+          "url": "thumbnails/Levitator/src/Levitator-pdf.zip",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Sensor-Cap.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Sensor-Cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/a15c1fca9cc611cc2a7fc42f5e0005fe_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-brd.pdf",
+          "url": "thumbnails/Levitator/src/Levitator-brd.pdf",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/18bcba260151953c1a649cebc2d2a316_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-gerber.zip",
+          "url": "thumbnails/Levitator/src/Levitator-gerber.zip",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/Gears_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Coil-B.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Coil-B.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/88ffb4110cca64da9db0ff369a21bccc_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Cylinder-Top.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Cylinder-Top.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/3e61a8ecb24fe1763ddb238a362775e0_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Base-Top.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Base-Top.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/4b376daf8841e1f8898c02a20818f402_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Cylinder-Cap.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Cylinder-Cap.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/887611882a3a10dfb3aea8a8c8e230d8_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Base-Bottom.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Base-Bottom.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/274af97d7753be9e7f173b72ec59afc5_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Coil-A.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Coil-A.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/49373c4d1818f4c214e35a2f59d9be7a_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Base-Bottom-NoBTswitch.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Base-Bottom-NoBTswitch.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/5a2575a12945cb25a6061484de0bb382_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-schematic.pdf",
+          "url": "thumbnails/Levitator/src/Levitator-schematic.pdf",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/02f602781f131fc0f8c943d860bcdd7c_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Sensor-Holder.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Sensor-Holder.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/19e3cbbbf1533f0867508846cad930b5_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Cylinder-Boby.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Cylinder-Boby.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/90add7e8170c444f23e870108b468446_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Levitator-Side.STL",
+          "url": "thumbnails/Levitator/src/Levitator-Side.STL",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Levitator/img/e545fdf44737a567b8ee710aec6f4eaa_preview_tinycard.jpg"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<p class=\"detail-image\"><img src=\"https://cdn.thingiverse.com/assets/de/3d/a7/e3/f8/Levitator-200x120.png\" /></p><p class=\"detail-title\"><strong>Printed parts</strong></p><p>I've printed all parts at 0.25mm, 25% infill.</p><ul><li>1 x Base-Bottom    : support doesn't matter<br />or</li><li><p>1 x Base-Bottom-NoBTswitch: (if you don't want bluetooth or don't intend to turn it off)</p></li><li>1 x Base-Top         : support &gt;45 overhang</li><li>1 x Side                 : no support !!! (otherwise you'll have difficulties to clean up the conduits.</li><li>1 x Sensor Holder : support &gt;60 overhang (so you don't have to clean the thread path)</li><li>1 x Sensor Cap     : support &gt;60 overhang (so you don't have to clean the thread path)</li><li>1 x Cylinder Body  : support &gt;45 overhang</li><li>1 x Cylinder Top    : support doesn't matter</li><li>1 x Cylinder Cap   : support &gt;60</li><li>1 x Coil A              : support doesn't matter</li><li>1 x Coil B               :support doesn't matter</li></ul><p>Note:<br />If you plan to add the bluetooth module, consider using a switch to turn it off. Otherwise, you won't be able to flash the arduino nano via USB without opening the base and unpluging the bluetooth module.<br />Both USB and BT modules are wired to the same RX/TX pins and the BT will interfere with the arduino bootloader when flashing the board.</p> <p class=\"detail-title\"><strong>Hardware</strong></p><ul><li>1 x Hexagon socket head cap screw M6x40 mm</li><li>1 x M6 nut</li><li>5 x Self tapping screw 2.9x13mm</li><li>2-4 x M2.5x5mm screw (to fix the board in the Levitator base)</li></ul> <p class=\"detail-title\"><strong>Electronic parts</strong></p><p>For the Board</p><ul><li>1 x 12-18V 800mA power supply. </li><li>1 x Arduino nano <a rel=\"nofollow\" href=\"https://www.aliexpress.com/item/1PCS-Promotion-Funduino-Nano-3-0-Atmega328-Controller-Compatible-Board-for-Arduino-Module-PCB-Development-Board/32531372300.html\">nano board</a></li><li>2 x 15 pin female single row straight header (2.54mm pitch)</li><li>1 x DC power jack 5.5-2.1mm, 8mm Diameter: <a rel=\"nofollow\" href=\"https://www.aliexpress.com/item/10pcs-3A-12v-for-DC-Power-Supply-Jack-Socket-Female-Panel-Mount-Connector-5-5mm-2/32473721558.html\">power jack</a></li><li>2 x 3mm LED, the color of your choice.</li><li>2 x 330ohms 1/4W resistance.</li><li>1 x 470uF polarized capacitor</li><li>1 x 10-100nF capacitor</li><li>1 x IRL540 mosfet transistor or equivalent (need to be TTL \"compatible\").</li><li>1 x 1N4148 diode or equivalent</li><li>3 x 2 pin JST male header 2mm pitch </li><li>3 x 2 pin JST female header 2mm pitch + crimps</li><li>2 x 2 pin JST male header 2.54mm pitch</li><li>2 x s pin JST female header 2.54mm pitch</li><li>1 x 3 pin JST male header 2.54mm pitch</li><li>1 x 3 pin JST female header 2.54mmpitch + crimps</li></ul><p>For the Coil/Sensor:</p><ul><li>1 x SS495A Radiometric linear hall effect sensor (or equivalent)</li><li>~140m CU wire  0.28mm</li><li>5 x ~40cm 24-26 AWG wires to connect the coil and sensor to the board.</li></ul><p>For the Levitating object:<br />Some very strong neodyme permanent magnet (N30 N42 N50)<br />You'll need one or more for the levitating object and you need one or more to put on top of the coil</p><p>To Add bluetooth capability:</p><ul><li>1 x HC06  or compatible bluetooth module <a rel=\"nofollow\" href=\"https://www.aliexpress.com/item/Free-shipping-1pcs-HC-06-HC06-JY-MCU-BT-BOARD-V1-05-4pin-Bluetooth-serial-pass/1107225252.html\">HC06 module</a></li><li>1 x 4 pin female single row straight header (2.54mm pitch)  </li><li>1 x Mini slide switch <a rel=\"nofollow\" href=\"https://www.aliexpress.com/item/20pcs-lot-3-Pin-2-Position-Black-Mini-Size-SPDT-Slide-Switches-On-Off-PCB/32658743331.html\">SS12F15G</a></li></ul><p>Note:</p><ul><li>Be careful, not all chinese  Arduino Nano clone are born equals !!! Some are very poorly manufactured and thus very sensitive to noise or interferences.</li><li>A Nano board is extremly sensitive to shorts!! Be carreful when working with a bread board and wire al around. I've burn a couple :-(</li><li>The whole system is quite sensitive to the stability of the power source. I've tried several power supply and I still get some 50Hz oscillations that can destabilize the system.</li></ul><br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    },
+    {
+      "id": "1390011",
+      "avatar": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/visage-femme-02_thumb_small.jpg",
+      "title": "Plastic-Bottle-Cutter/Découpeur de bouteilles plastique",
+      "description": "<p>The usage is very simple, you should just cut the bottom of the bottle, make a small cut, slide it through the hole you want ( depending on the desired width) and pull up the thread until the bottle runs out.</p><p>With them you can form brooms, braiding cords, make baskets among other things.</p><p>L'utilisation est trs simple, vous devez juste couper le fond de la bouteille, faire une petite entaille, faites-la glisser dans le trou que vous voulez (en fonction de la largeur dsire) et tirez le \"fil\" jusqu'au bout de la bouteille.</p><p>Cela permet de recycler vos bouteilles en plastique. Je me suis inspir de ce modle : <a rel=\"nofollow\" href=\"https://youtu.be/JMbT4DOi21U\">https://youtu.be/JMbT4DOi21U</a> </p>",
+      "url": "https://www.thingiverse.com/thing:1390011",
+      "downloadUrl": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/zip/1390011.zip",
+      "like": "684",
+      "collect": "827",
+      "made": "0",
+      "watch": "12",
+      "remix": "0",
+      "views": "16920",
+      "downloads": "3062",
+      "authors": [
+        {
+          "name": "FP-Creator",
+          "url": "https://www.thingiverse.com/thing:1390011",
+          "email": "None"
+        }
+      ],
+      "created": "Mar 4, 2016",
+      "licenses": [
+        "BSD License license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/a272e65f322105c6a6bcfd40df78d512_display_large.jpg",
+        "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/fc6c7d2ad783f1a133b5e126e04a7393_display_large.jpg",
+        "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/be015f415c0d0efce1abd6961513cda1_display_large.jpg",
+        "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/9065762a9490abd803513dd222381c6e_display_large.jpg",
+        "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/a3627efe9171297d595389c792c5b0d1_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+        "bottle",
+        "cutter",
+        "laser_cutter",
+        "plastic"
+      ],
+      "billOfMaterials": [
+        {
+          "partNumber": "",
+          "description": "Plastic-Bottle-Cutter-screw.stl",
+          "url": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/src/Plastic-Bottle-Cutter-screw.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/9065762a9490abd803513dd222381c6e_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "plastic-bottle-cutter.stl",
+          "url": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/src/plastic-bottle-cutter.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Plastic-Bottle-Cutter-D-coupeur-de-bouteilles-plastique/img/a3627efe9171297d595389c792c5b0d1_preview_tinycard.jpg"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    },
+    {
+      "id": "9182",
+      "avatar": "thumbnails/Repairablemachines-miniCNC/img/R0015909_display_large_thumb_small.jpg",
+      "title": "Repairablemachines: miniCNC",
+      "description": "<p>This is a desktop-size, open-source milling machine in kitform, built from lasercut parts.<br />We know several people have tried to put a Dremel inside a Makerbot, but we don't think this makes much sense. You'll have a high center of gravity and a light frame. We love our Makerbots, but we think if we put a Dremel toolhead in them, they'll just vibrate apart :)</p><p>We designed something from the ground up to be stable, rugged and still light-weight enough to be carried around. (actually, the one I'm showing in Paris this weekend now features a suitcase handle on the steel frame)</p><p>The machine has an open floor, allowing it to do a milling operation on a large object.</p><p>The machine was specifically developed to have a low center of gravity and be a portable, yet stable platform.</p><p>The machine uses a microATX 12V power supply and Makerbot electronics</p><p>The current version has a 175x175 mm cutting area.</p><p>The machine can easily be enlarged along the X-axis, as the machine is built from a number of modular parts.</p><p>There's a short video of the working machine on <a rel=\"nofollow\" href=\"http://www.repairablemachines.com/updates.html\">http://www.repairablemachines.com/updates.html</a><br />You'll also find some stuff we made with it there.</p><p>The plans are uploaded here and on www.repairablemachines.com.<br />We also make kits for this machine, we can provide you with all the parts you need to assemble this into a fully working milling machine</p><p>UPDATE SEPTEMBER 2011: we published version 1.08 of this machine<br />It now has:<br />-improved accuracy, better than 0.2mm<br />-version numbering engraved on all parts<br />-a more rigid Z-axis</p>",
+      "url": "https://www.thingiverse.com/thing:9182",
+      "downloadUrl": "thumbnails/Repairablemachines-miniCNC/zip/9182.zip",
+      "like": "272",
+      "collect": "381",
+      "made": "0",
+      "watch": "7",
+      "remix": "0",
+      "views": "20267",
+      "downloads": "1361",
+      "authors": [
+        {
+          "name": "lievenstandaert",
+          "url": "https://www.thingiverse.com/thing:9182",
+          "email": "None"
+        }
+      ],
+      "created": "Jun 10, 2011",
+      "licenses": [
+        "Creative Commons - Attribution - Share Alike license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Repairablemachines-miniCNC/img/20110430-OPEN-0041lr_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/R0012139_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/R0012079_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/00-ALL_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/20110430-OPEN-0046_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/features-side_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/parts_on_table_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/features_display_large_display_large.jpg",
+        "thumbnails/Repairablemachines-miniCNC/img/letter-e_display_large_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+        "cnc",
+        "CNC",
+        "Machine",
+        "dremel",
+        "Drill",
+        "laser_cutter",
+        "makerbot",
+        "milling",
+        "minicnc",
+        "repairablemachines"
+      ],
+      "billOfMaterials": [
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<p>Assembly instructions and full documentation can be found at:<br /><a rel=\"nofollow\" href=\"http://www.repairablemachines.com\">http://www.repairablemachines.com</a></p><p>A parts list is published on:<br /><a rel=\"nofollow\" href=\"http://www.repairablemachines.com/partlist_miniCNC_v108.htm\">http://www.repairablemachines.com/partlist_miniCNC_v108.htm</a></p><br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    },
+    {
+      "id": "2749313",
+      "avatar": "thumbnails/Rocket-with-clouds/img/avatar_student_thumb_small.jpg",
+      "title": "Rocket with clouds",
+      "description": "<p>I used a different rocket design that I found, and added it to my own cloud/dust design. With the rocket that I made I just scaled it down a bit. If you have any questions about the model feel free to ask. I might tweak the 3D model a little down the road.<br />The original rocket design is Botmaster's Classic Rocket model.<br />Link: <a rel=\"nofollow\" href=\"https://www.thingiverse.com/thing:580192\">https://www.thingiverse.com/thing:580192</a></p>",
+      "url": "https://www.thingiverse.com/thing:2749313",
+      "downloadUrl": "thumbnails/Rocket-with-clouds/zip/2749313.zip",
+      "like": "4",
+      "collect": "6",
+      "made": "0",
+      "watch": "0",
+      "remix": "0",
+      "views": "42",
+      "downloads": "10",
+      "authors": [
+        {
+          "name": "cviegut",
+          "url": "https://www.thingiverse.com/thing:2749313",
+          "email": "None"
+        }
+      ],
+      "created": "7 hrs ago",
+      "licenses": [
+        "Creative Commons - Attribution license."
+      ],
+      "thumbnailUrls": [
+        "thumbnails/Rocket-with-clouds/img/311357cd99e97f84aa35d5526e02bcb8_display_large.JPG",
+        "thumbnails/Rocket-with-clouds/img/c3b9d514a23a43215aad0d35a79e7ee4_display_large.JPG",
+        "thumbnails/Rocket-with-clouds/img/15da34f74bd89639a300235bb33a55c4_display_large.jpg",
+        "thumbnails/Rocket-with-clouds/img/1be42144eecbd3860e0c87f64091c4c3_display_large.jpg"
+      ],
+      "media": [
+        "None"
+      ],
+      "categories": [
+        "None"
+      ],
+      "tags": [
+      ],
+      "billOfMaterials": [
+        {
+          "partNumber": "",
+          "description": "Rocket.stl",
+          "url": "thumbnails/Rocket-with-clouds/src/Rocket.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Rocket-with-clouds/img/1be42144eecbd3860e0c87f64091c4c3_preview_tinycard.jpg"
+        },
+        {
+          "partNumber": "",
+          "description": "Clouds_For_Rocket_Launch_1.stl",
+          "url": "thumbnails/Rocket-with-clouds/src/Clouds_For_Rocket_Launch_1.stl",
+          "type": "source",
+          "mimetype": "",
+          "thumbnailUrl": "thumbnails/Rocket-with-clouds/img/15da34f74bd89639a300235bb33a55c4_preview_tinycard.jpg"
+        }
+      ],
+      "instructions": [
+        {
+          "step": "",
+          "text": "<br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+          "images": ""
+        }
+      ]
+    }
+  ]
+}

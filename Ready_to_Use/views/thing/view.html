@@ -1,0 +1,387 @@
+<div id="thing-page" class="page">
+    <div class="main_content">
+    </div>
+    <div class="main_content">
+        <div class="thing-page-header">
+            <div class="profile-pic">
+                <div class="avatar-wrapper">
+                    <a href><img src="{{thing.avatar}}"
+                                 alt="" class="render"/></a>
+                </div>
+            </div>
+            <div class="thing-header-data">
+                <h1>{{thing.title}}</h1>
+                <h2>
+                    by <a href><span ng-repeat="author in thing.authors"><span ng-hide='$index==0'>,&nbsp;</span>{{ author.name }}</span></a>,
+                    published
+                    <time datetime="">
+                        {{thing.created|date:"MMM dd, yyyy" }}
+                    </time>
+                </h2>
+            </div>
+        </div>
+        <div class="thing-page-main clearfix">
+            <div class="for-tiny card-slider-holder">
+                <div class="thing thing-interaction-parent item-card"
+                     title="kneeling knight">
+                    <div>
+                        <div class="thing-about">
+                            <div class="profile-pic">
+                                <div class="avatar-wrapper">
+                                    <a href><img
+                                            src="https://cdn.thingiverse.com/renders/03/4a/c2/07/83/twitter_thumb_small.jpg"
+                                            alt="" class="render"/></a>
+                                </div>
+                            </div>
+                            <span class="thing-who-what">
+                <span class="thing-made">
+                    <span class="thing-name">{{thing.title}}</span>
+                                        <span class="creator-name">by <a href><span ng-repeat="author in thing.authors"><span
+                                                ng-hide='$index==0'>,&nbsp;</span>{{ author.name }}</span></a></span>
+                                    </span>
+            </span>
+                            <span class="thing-pub-time">
+                                    {{thing.created}}                            </span>
+                        </div>
+                        <div class="thing-interact">
+                                    <span class="thing-like " title="Like this Thing">
+                    <span class="interaction-count">{{thing.like}}</span>
+                </span>
+                            <span class="thing-collect" title="Collect this Thing">
+                        <span class="interaction-count collection-count">{{thing.collect}}</span>
+                    </span>
+                            <a href class="thing-comment" title="View Comments">
+                                <span class="interaction-count comment-count">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../../js/vendor/jsibox/jsibox_basic.js"></script>
+            <div class="thing-gallery-holder thing-page-left not-for-tiny">
+                <div class="thing-page-image-holder ">
+                    <div class="thing-page-slider main-slider">
+                        <div class="thing-slides">
+                            <div class="thing-page-image featured "
+                                 style="background-position: center; overflow: hidden">
+                                <div ng-controller="CarouselCtrl">
+                                        <div class="thing_carousel" uib-carousel active="active" interval="0" no-wrap="noWrapSlides">
+                                            <div class="thing-page-image" uib-slide
+                                                 ng-repeat="slide in slides track by slide.id"
+                                                 index="slide.id">
+                                                <div>Image {{ $index + 1 }} of {{ slides.length }}</div>
+                                                <img class="thing_image" ng-src="{{slide.image}}"
+                                                     onclick="return jsiBoxOpen(this,this.id)" id="{{slide.image}}">
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thing-thumbs-holder">
+                    <div class="thing-page-gallery">
+                        <div class="thing-gallery-thumbs" ng-controller="ThingCtrl">
+                            <a href class="thing-gallery-thumb" style="margin-bottom: 5px"
+                               ng-repeat="thumbnail in thing.thumbnailUrls" url='{{thumbnail}}'>
+                                <img ng-src="{{ thumbnail }}"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thing-page-right">
+                <div class="thing-interact thing-interaction-parent for-tiny">
+                    <a href class="thing-made" title="I Made One">
+                        <span class="interaction-count">{{thing.made}}</span>
+                    </a>
+                    <span class="thing-watch" title="Watch">Watch</span>
+                    <span class="thing-share" title="Share"> Share
+                                                    </span>
+                </div>
+                <a href="{{thing.downloadUrl}}" class="thing-download-btn thing-option-btn track launch-modal">
+                    Download All Files</a>
+                <div class="thing-page-right thing-info thing-interact not-for-tiny" style="position: inherit">
+                    <span class="thing-like " title="Like this Thing">
+                                        Like
+                                        <span class="interaction-count">{{thing.like}}</span>
+                                    </span>
+                    <span class="thing-collect" title="Collect this Thing">
+                                    Collect                                    <span
+                            class="interaction-count collection-count">{{thing.collect}}</span>
+                                </span>
+                    <a href data-viewtab="thing-comments" class="view_tab thing-comment"
+                       title="View Comments">
+                        Comment
+                        <span class="interaction-count comment-count">0</span>
+                    </a>
+                    <a href class="thing-made" title="I Made One">
+                        I Made One
+                        <span class="interaction-count">{{thing.made}}</span>
+                    </a>
+                    <span class="thing-watch not_following">
+                                    Watch
+                        <span class="interaction-count watch-count">{{thing.watch}}</span>
+                                </span>
+                    <a href class="thing-remix" title="Remix It">
+                        Remix It
+                        <span class="interaction-count">{{thing.remix}}</span>
+                    </a>
+                    <span class="thing-share" title="Share"> Share
+                        </span>
+                </div>
+            </div>
+        </div>
+        <nav role="tablist" class="profile_edit_nav_container not-mobile thing-nav">
+            <a href ng-click="selected=1" ng-class="{active: selected == 1}" ng-init="selected=1"
+               class="profile_nav_bttn active" data-tab="thing-description">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value"></div>
+                    <div class="name">Thing Details</div>
+                </div>
+            </a>
+            <a href ng:click="selected=2" ng-class="{active: selected == 2}"
+               class="profile_nav_bttn  tab-thing-files" data-tab="thing-files">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value"></div>
+                    <div class="name">Thing Files</div>
+                </div>
+            </a>
+            <a href class="profile_nav_bttn tab-thing-apps active disabled"
+               data-tab="thing-apps">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value"></div>
+                    <div class="name">Apps</div>
+                </div>
+            </a>
+            <a href class="profile_nav_bttn disabled" data-tab="thing-comments">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value">0</div>
+                    <div class="name">Comments</div>
+                </div>
+            </a>
+            <a href data-ajax="" class="profile_nav_bttn disabled"
+               data-tab="thing-made">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value">{{thing.made}}</div>
+                    <div class="name">Made</div>
+                </div>
+            </a>
+            <a href="" data-ajax=""
+               class="profile_nav_bttn disabled" data-tab="thing-collections">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value">{{thing.collect}}</div>
+                    <div class="name">Collections</div>
+                </div>
+            </a>
+            <a class="profile_nav_bttn disabled" data-tab="thing-remixes">
+                <div class="profile_nav_bttn_wrapper">
+                    <div class="value">{{thing.remix}}</div>
+                    <div class="name">Remixes</div>
+                </div>
+            </a>
+        </nav>
+        <div class="section-nav-wrapper thing-menu for-mobile thing-info">
+            <nav class="section-nav">
+                <div class="subnav-wrapper first-nav">
+                    <div class="selected-section-wrapper"><span class="selected-section">
+                            Thing Details                        </span></div>
+                    <div class="dropdown-wrapper">
+                        <div class="selected-section-wrapper"><span class="selected-section">
+                                Thing Details                            </span></div>
+                        <ul class="nav section-dropdown">
+                            <a data-tab="thing-description">
+                                <li>Thing Details</li>
+                            </a>
+                            <a data-tab="thing-files">
+                                <li>Files</li>
+                            </a>
+                            <a href data-tab="thing-apps">
+                                <li>Apps</li>
+                            </a>
+                            <a data-tab="thing-comments">
+                                <li>Comments</li>
+                            </a>
+                            <a data-tab="thing-made">
+                                <li>Made</li>
+                            </a>
+                            <a data-tab="thing-collections">
+                                <li>Collections</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div ng:show="selected == 1" class="thing-page-detail">
+            <div id="thing-page-content">
+                <div id="ajax-loaded-content" class="tab-content-holder"></div>
+                <div id="thing-description" class="tab-content-holder active">
+                    <div class="thing-page-left">
+                        <div class="thing-info thing-contents">
+                            <div class="thing-info-header not-for-tiny"><h2>Contents</h2></div>
+                            <ul class="not-for-tiny">
+                                <li><a href data-section="summary">Summary</a></li>
+                                <li><a href data-section="settings">Print Settings</a></li>
+                                <li><a href data-section="design">How I Designed This</a></li>
+                            </ul>
+                            <div class="section-nav-wrapper for-tiny">
+                                <nav class="section-nav">
+                                    <div class="subnav-wrapper first-nav">
+                                        <div class="selected-section-wrapper"><span class="selected-section">
+                                                Contents
+                                            </span></div>
+                                        <div class="dropdown-wrapper">
+                                            <div class="selected-section-wrapper"><span class="selected-section">
+                                                    Thing Details                                                </span>
+                                            </div>
+                                            <ul class="nav section-dropdown">
+                                                <li><a href data-section="summary">Summary</a></li>
+                                                <li><a href data-section="settings">Print Settings</a></li>
+                                                <li><a href data-section="design">How I Designed This</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="thing-info">
+                            <div class="thing-info-content">
+                                <a href data-modal="" class="user-tip-btn show-modal">Tip Designer</a> <a
+                                    class="thing-option-btn report-thing" href>Report Thing</a>
+                            </div>
+                        </div>
+                        <div class="thing-info">
+                            <div class="thing-info-header">
+                                <h2>Tags</h2>
+                            </div>
+                            <div class="thing-info-content thing-detail-tags-container">
+                                <div class="taglist">
+                                    <span ng-repeat="tag in thing.tags" style="padding: 2px 6px;">
+                                        <a href="/tag:" style="padding: 0px 0px; margin: 0 0 0 0">{{tag}}</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thing-info">
+                            <div class="thing-info-header">
+                                <h2>License</h2>
+                            </div>
+                            <div class="thing-info-content">
+                                <span ng-repeat="license in thing.licenses"><span ng-hide='$index==0'></span>
+                                    <div class="thing-license"
+                                         title="{{license}}"/>
+                                </span>
+                                <div class="cc-licenses">
+                                    <img src="/img/cc/chooser_by.png">
+                                    <img src="/img/cc/chooser_nc.png">
+                                    <img src="/img/cc/chooser_sa.png">
+                                </div>
+                                <div class="license-text">
+                                    <a href><span xmlns:dc="http://purl.org/dc/elements/1.1/"
+                                                  property="dc:title">{{thing.title}}</span></a> by
+                                    <a xmlns:cc="http://creativecommons.org/ns#"
+                                       href property=""
+                                       rel><span ng-repeat="author in thing.authors"><span
+                                            ng-hide='$index==0'>,&nbsp;</span>{{ author.name }}</span></a> is licensed
+                                    under the
+                                    <a rel="license"><span ng-repeat="license in thing.licenses"><span
+                                            ng-hide='$index==0'>, </span>{{ license }}</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thing-info thing-interact thing-stats">
+                        <div class="thing-info-header">
+                            <h2>Thing Statistics</h2>
+                        </div>
+                        <span class="thing-views" data-placement="top" title="views"><span
+                                class="interaction-count">{{thing.views}}</span><span
+                                class="interaction-count">Views</span></span>
+                        <span class="thing-downloads" data-placement="top" title="downloads"><span
+                                class="interaction-count">{{thing.downloads}}</span><span class="interaction-count">Downloads</span></span>
+                        <a href="/categories/models/people" class="thing-category"><span class="interaction-count">Found in People</span></a>
+                    </div>
+                </div>
+                <div class="thing-page-right">
+                    <div class="thing-info">
+                        <div id="description" class="thing-info-content">
+                                <span ng-show="thing.description">{{ thing.version }}
+                                    <h1 class="thing-component-header summary summary">Summary</h1>
+                                    <div ng-bind-html="thing.description | nl2br"></div>
+                                </span>
+                            <span ng-hide="thing.description">Unknown</span>
+                            <span ng-repeat="instruction in thing.instructions"><span ng-hide='$index==0'>,&nbsp;
+                                </span>
+                                    <h1 class="thing-component-header instructions">Instructions</h1>
+                                    <div ng-bind-html="instruction.text | nl2br"></div>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="thing-info clearfix">
+                        <div class="thing-info-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng:show="selected == 2" id="thing-files" class="tab-content-holder cf thing-info active">
+        <div class="thing-page-left">
+            <h4 class="details-header">File Name</h4>
+            <h4 class="downloads-header">Downloads</h4>
+            <h4 class="size-header">Size</h4>
+            <div ng-repeat="item in thing.billOfMaterials" class="thing-file">
+                <a href="{{item.url}}" class="track thing-file-download-link"
+                   data-track-category='["thing", "thing"]'
+                   data-track-action='["download", "download_logged_in"]'
+                   data-track-label='["file", "file"]' data-thing-id="" data-file-id=""
+                   data-file-name="kneeling.stl">
+                    <img src="{{item.thumbnailUrl}}">
+                    <div class="detail">
+                        <div class="filename">{{item.description}}</div>
+                        <div>Last updated: 02-13-17</div>
+                        <div class="downloads for-mobile">Downloads: {{thing.downloads}}</div>
+                        <div class="size for-mobile">Size: -</div>
+                    </div>
+                    <span class="downloads">{{thing.downloads}}</span>
+                    <span class="size">-</span>
+                </a>
+            </div>
+        </div>
+        <div class="thing-page-right">
+            <div class="thing-info-content">
+                <div class="thing-license"
+                     title="Creative Commons - Attribution - Non-Commercial - Share Alike">
+                    <div class="cc-licenses">
+                        <img src="/img/cc/chooser_by.png">
+                        <img src="/img/cc/chooser_nc.png">
+                        <img src="/img/cc/chooser_sa.png">
+                    </div>
+                    <div class="license-text">
+                        <a href="/thing:2106351"><span xmlns:dc="http://purl.org/dc/elements/1.1/"
+                                                       property="dc:title">{{thing.title}}</span></a> by <a
+                            xmlns:cc="http://creativecommons.org/ns#" href="http://www.thingiverse.com/bs3"
+                            property="cc:attributionName" rel="cc:attributionURL"><span
+                            ng-repeat="author in thing.authors"><span ng-hide='$index==0'>,&nbsp;</span>{{ author.name }}</span></a>
+                        is licensed under
+                        the <a rel="license" href><span ng-repeat="license in thing.licenses"><span ng-hide='$index==0'>, </span>{{ license }}</span></a>
+                    </div>
+                </div>
+                <div class="license-text">
+                    <a target="_blank" href="/thing:2106351/attribution_card">
+                        By downloading this thing, you agree to abide by the license: <span>Creative Commons - Attribution - Non-Commercial - Share Alike</span>
+                    </a>
+                </div>
+                <div class="thing-download-zip">
+                    <a href="{{thing.downloadUrl}}"
+                       class="thing-download-btn thing-option-btn track launch-modal" style="font-size: 12px"
+                       data-track-category='["thing", "thing"]'
+                       data-track-action='["download", "download_logged_in"]'
+                       data-track-label='["zip", "zip"]'>Download All Files</a>
+                    <span>(- mb zip file)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

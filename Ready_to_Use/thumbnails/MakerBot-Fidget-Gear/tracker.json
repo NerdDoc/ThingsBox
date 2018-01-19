@@ -1,0 +1,67 @@
+{
+  "id": "2234364",
+  "avatar": "thumbnails/MakerBot-Fidget-Gear/img/mb_black_logo_thumb_small.jpeg",
+  "title": "MakerBot Fidget Gear",
+  "description": "<p>The MakerBot Fidget Gear is a print-in-place fidget model that displays the capabilities of the MakerBot Replicator+ series printers. Its a fun fidget to play with, but it can also let you know if your printer is running up to spec. A perfectly spinning fidget gear, will spin freely without requiring post processing. </p>",
+  "url": "https://www.thingiverse.com/thing:2234364",
+  "downloadUrl": "thumbnails/MakerBot-Fidget-Gear/zip/2234364.zip",
+  "like": "287",
+  "collect": "419",
+  "made": "21",
+  "watch": "6",
+  "remix": "4",
+  "views": "10667",
+  "downloads": "3408",
+  "authors": [
+    {
+      "name": "MakerBotPartnerLibrary",
+      "url": "https://www.thingiverse.com/thing:2234364",
+      "email": "None"
+    }
+  ],
+  "created": "Apr 12, 2017",
+  "licenses": [
+    "Creative Commons - Attribution - Non-Commercial license."
+  ],
+  "thumbnailUrls": [
+    "thumbnails/MakerBot-Fidget-Gear/img/5221bf3d7733f6f3dfc4de255a27b7ab_display_large.jpg",
+    "thumbnails/MakerBot-Fidget-Gear/img/e232d07a1dea0f10ad8d469132a1dd9c_display_large.jpg"
+  ],
+  "media": [
+    "None"
+  ],
+  "categories": [
+    "None"
+  ],
+  "tags": [
+    "fidget",
+    "fidget_gear",
+    "fidget_toy",
+    "print_in_place"
+  ],
+  "billOfMaterials": [
+    {
+      "partNumber": "",
+      "description": "MakerBot_Fidget_Gear.stl",
+      "url": "thumbnails/MakerBot-Fidget-Gear/src/MakerBot_Fidget_Gear.stl",
+      "type": "source",
+      "mimetype": "",
+      "thumbnailUrl": "thumbnails/MakerBot-Fidget-Gear/img/e232d07a1dea0f10ad8d469132a1dd9c_preview_tinycard.jpg"
+    },
+    {
+      "partNumber": "",
+      "description": "MakerBot_Fidget_Gear.thing",
+      "url": "thumbnails/MakerBot-Fidget-Gear/src/MakerBot_Fidget_Gear.thing",
+      "type": "source",
+      "mimetype": "",
+      "thumbnailUrl": "thumbnails/MakerBot-Fidget-Gear/img/Gears_preview_tinycard.jpg"
+    }
+  ],
+  "instructions": [
+    {
+      "step": "",
+      "text": "<br><strong>Notes:</strong> </br><br><strong>PostPrinting:</strong> </br>",
+      "images": ""
+    }
+  ]
+}

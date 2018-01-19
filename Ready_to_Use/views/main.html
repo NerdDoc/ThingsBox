@@ -1,0 +1,57 @@
+<div class="main_content">
+    <div class="thing-list-page page explore-page">
+        <div class="thing-list page-content">
+            <div class="things-page-content">
+                <div class="things instances">
+                    <div class="things-page items-page">
+                        <div class="row-fluid">
+                            <div ng-repeat="thing in thingsSummary track by $index">
+                                <div class="col-sm-4">
+                                    <div class="panel panel-primary">
+                                        <a href="#!/thing/{{thing.id}}">
+                                            <img title="{{thing.title}}" ng-show="thing.thumbnailURL"
+                                                 ng-src="{{ thing.thumbnailURL }}"
+                                                 class="img-responsive image"/>
+                                        </a>
+                                        <div class="thing-about">
+                                            <div class="profile-pic">
+                                                <div class="avatar-wrapper">
+                                                    <img src="{{thing.avatar}}"/>
+
+                                                </div>
+                                            </div>
+                                            <span class="thing-who-what">
+              <span class="thing-made">
+                <span class="thing-name">
+                    {{thing.title}}
+                </span>
+                <span class="creator-name">
+                  by {{thing.creator}}
+                </span>
+              </span>
+            </span>
+                                            <span class="thing-pub-time">
+                   {{thing.created|date:"MMM dd, yyyy" }}
+              </span>
+                                        </div>
+                                        <div class="thing-interact">
+                                            <a class="thing-like" title="Like This Thing">
+                                                <span class="interaction-count">{{thing.like}}</span>
+                                            </a>
+                                            <a class="thing-collect">
+                                                <span class="interaction-count collection-count">{{thing.collect}}</span>
+                                            </a>
+                                            <a class="thing-comment" title="View Comments">
+                                                <span class="interaction-count comment-count"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

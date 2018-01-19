@@ -143,7 +143,6 @@ while (not_last_page):#Lets try to get next page of collection until we are not 
                 return_code = subprocess.call([os.getcwd() + "/export_thing.py", "T", thingId, collectionTitle])
             else:
                 return_code = subprocess.call([os.getcwd() + "/export_thing.py", "B", thingId, collectionTitle])
-            print (return_code)
             if return_code == 0:
                 thingsTotal = thingsTotal + 1
                 if thingCounter != 1:

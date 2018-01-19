@@ -18,7 +18,6 @@ import subprocess
 
 downloadFiles = True  # If set to false, will link to original files instead of downloading them
 redownloadExistingFiles = False  # This saves time when re-running the script in long lists (but be careful, it only checks if file already exists -not that it is good-)
-not_last_page = True
 thingBox = True
 
 # Helper function to show usage
@@ -71,8 +70,7 @@ def httpGet(page, filename=False, redir=True):
         time.sleep(10)
         return httpGet(page, filename, redir)
     if r.status_code == 404:
-        global not_last_page
-        not_last_page = False
+        print (r.status_code)
         return - 1
     if r.status_code != 200:
         print(r.status_code)
@@ -106,13 +104,15 @@ pageNumber = 1;
 thingCounter = 0
 thingsTotal = 0
 
-while (not_last_page):#Lets try to get next page of collection until we are not get page 404
-    res = httpGet(url + "/" + userNick + "/collections/" + title + "/page:" + str(pageNumber), redir=False)  # Load the page of the thing
-    if not_last_page == False:
-        print ("\nDone with " + collectionTitle + " collection")
-        print ("\n Total things: " + str(thingsTotal))
-        print ("\nHave a GOOD DAY and GOOD LUCK!!!")
-        exit()
+def off():
+    print ("\nDone with " + collectionTitle + " collection")
+    print ("\n Total things: " + str(thingsTotal))
+    print ("\nHave a GOOD DAY and GOOD LUCK!!!")
+    exit()
+
+
+while (True):#Lets try to get next page of collection until we are find class empty
+    res = httpGet(url + "/" + userNick + "/collections/" + collectionTitle + "/page:" + str(pageNumber), redir=False)  # Load the page of the thing
     if res == -1:
         print("Error while downloading " + userNick + "/collections/" + collectionTitle)
         exit()
@@ -124,6 +124,10 @@ while (not_last_page):#Lets try to get next page of collection until we are not 
         title = str(header_data.h1.text.encode('utf-8', 'ignore'))
     except:
         title = str(res_xml.findAll("title")[0].text.encode('utf-8', 'ignore'))
+
+    lastPage = res_xml.find("span", {"class": "empty"})
+    if lastPage:
+       off()
 
     collectionId = res_xml.find("div", {"class": "thing-interact thingcollection-edit"})['data-link']
     if not collectionId:

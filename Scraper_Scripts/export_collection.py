@@ -103,12 +103,14 @@ def myGetText(BScontent):
 print("\nProcessing collection from user: " + collectionTitle + " from " + userNick)
 print("Loading collection data")
 pageNumber = 1;
-
+thingCounter = 0
+thingsTotal = 0
 
 while (not_last_page):#Lets try to get next page of collection until we are not get page 404
     res = httpGet(url + "/" + userNick + "/collections/" + title + "/page:" + str(pageNumber), redir=False)  # Load the page of the thing
     if not_last_page == False:
         print ("\nDone with " + collectionTitle + " collection")
+        print ("\n Total things: " + str(thingsTotal))
         print ("\nHave a GOOD DAY and GOOD LUCK!!!")
         exit()
     if res == -1:
@@ -127,7 +129,7 @@ while (not_last_page):#Lets try to get next page of collection until we are not 
     if not collectionId:
         collectionId = 'None'
 
-    thingCounter = 0
+
     for thing in res_xml.findAll("div", {"class": "thing thing-interaction-parent item-card"}):
         thingId = thing.get('data-thing-id')
         thingCounter = thingCounter + 1
@@ -141,7 +143,9 @@ while (not_last_page):#Lets try to get next page of collection until we are not 
                 return_code = subprocess.call([os.getcwd() + "/export_thing.py", "T", thingId, collectionTitle])
             else:
                 return_code = subprocess.call([os.getcwd() + "/export_thing.py", "B", thingId, collectionTitle])
+            print (return_code)
             if return_code == 0:
+                thingsTotal = thingsTotal + 1
                 if thingCounter != 1:
                     fd.write("\t\"" + thingId + "\",\n")
                     thingCounter = thingCounter - 1
